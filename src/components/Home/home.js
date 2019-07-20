@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 const Home = (props) => {
-    const headerText = 'Choose Country for further info'
+    const headerText = 'Choose country for further info'
     const [state, setState] = useState({
         left: false
     })
